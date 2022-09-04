@@ -1,0 +1,22 @@
+{
+  "name": "fullstack-ayacucho",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franco-Arias/FullStack-Ayacucho.git"
+  },
+  "author": "FrancoArias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Franco-Arias/FullStack-Ayacucho/issues"
+  },
+  "homepage": "https://github.com/Franco-Arias/FullStack-Ayacucho#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
