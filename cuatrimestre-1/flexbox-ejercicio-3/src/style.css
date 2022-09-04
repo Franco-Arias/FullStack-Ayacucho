@@ -1,0 +1,108 @@
+body{
+    font-size: 20px;
+}
+.elementosEncabezadoPie{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+    color: white;
+    text-indent: 10px;
+}
+.elementosCuerpo{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+    color: white;
+    text-indent: 10px;
+}
+#encabezadoDiv{
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    width: 100%;
+    height: 60px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+    }
+#encabezadoTextoDiv{
+    height: 30px;
+}
+#logoDiv{
+    background-color: darkblue;
+    color: white;
+    text-indent: 10px;
+    height: 30px;
+    width: 200px;
+}
+#menu1Div{
+    background-color: green;
+    color: white;
+    text-indent: 100px;
+    height: 30px;
+    width: 400px;
+    align-self: end;
+}
+#menu2Div{
+    background-color: darkred;
+    color: white;
+    text-indent: 10px;
+    height: 30px;
+    width: 600px;
+}
+#cuerpoDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+}
+#fila1IzquierdaDiv{
+    width: 33%;
+    height: 500px;
+    background-color:  #424242;
+}
+#fila1CentroDiv{
+    width: 33%;
+    height: 500px;
+    background-color: darkcyan;
+}
+#fila1DerechaDiv{
+    width: 33%;
+    height: 500px;
+    background-color:  #f5b041 ;
+}
+#fila2IzquierdaDiv{
+    width: 66%;
+    height: 500px;
+    background-color: darkgreen;
+}
+#fila2DerechaDiv{
+    width: 33%;
+    height: 500px;
+    background-color:  #a04000;
+}
+#pieDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cyan;
+    width: 100%;
+    height: 60px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+}
+#elementoDiv{
+    background-color: darkblue;
+    color: white;
+    text-indent: 10px;
+    height: 30px;
+    width: 200px;
+}

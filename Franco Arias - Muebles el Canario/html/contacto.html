@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Muebles El Canario</title>
+    <link rel="stylesheet" href="../estilos/style.css">    
+</head>
+
+<body>
+    <nav class="menuDeNavegacion">
+        <img class="canarioLogo" src="../imagenes/canario-logo.png" alt="canario sobre una casa">
+        <div class="letraLogo">Muebles El Canario</div>
+        <a class="menuBtn" href="../index.html">INICIO</a>
+        <a class="menuBtn" href="productos.html">PRODUCTOS</a>
+        <a class="menuBtn" href="contacto.html">CONTACTO</a>
+    </nav>
+
+    <div class="centroDiv">
+        <h1>Contactanos</h1>
+        <form action="">
+            <h2>Nombre</h2>
+            <input class="contactoInput" id="nombreContactoInput" type="text" value="">
+            <label for="nombreContactoInput" class="contactoAlerta" id="nombreContactoAlerta"></label>
+            <h2>Email</h2>
+            <input class="contactoInput" id="emailContactoInput" type="text" value="">
+            <label for="emailContactoInput" class="contactoAlerta" id="emailContactoAlerta"></label>
+            <h2>Asunto</h2>
+            <input class="contactoInput" id="asuntoContactoInput" type="text" value="">
+            <label for="asuntoContactoInput" class="contactoAlerta" id="asuntoContactoAlerta"></label>
+            <h2>Mensaje</h2>
+            <input class="mensajeContactoInput" id="mensajeContactoInput" type="text" value="">
+            <label for="mensajeContactoInput" class="contactoAlerta" id="mensajeContactoAlerta"></label>
+            <br>
+            <button class="contactoBtn" id="contactoBtn" type="button">Enviar</button>
+            <label for="contactoBtn" id="contactoAlerta"></label>
+        </form>
+        <div class="captchaDiv">
+            <button id="generarCaptchaBtn">Generar Captcha</button>
+            <p id="captchaPrf"></p>
+            <input id="captchaIngresadoInput" type="text">
+            <button id="ingresarCaptchaBtn">Ingresar Captcha</button>
+            <label for="captchaIngresadoInput" class="captchaAlerta" id="captchaAlerta"></label>
+        </div>
+    </div>
+
+    <footer class="pieDePagina">
+        <div>© 2022 El Canario | Desarrollo: Franco Arias</div>
+        <div>
+            <ul>
+                <li><a class="pieDePaginaLink" href="https://es-la.facebook.com/">Facebook</a></li>
+                <li><a class="pieDePaginaLink" href="https://www.instagram.com/">Instagram</a></li>
+                <li><a class="pieDePaginaLink" href="https://twitter.com/?lang=es">Twitter</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a class="pieDePaginaLink" href="../index.html">Inicio</a></li>
+                <li><a class="pieDePaginaLink" href="productos.html">Productos</a></li>
+                <li><a class="pieDePaginaLink" href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Oficinas: Santa Fe 4430, Mar del Plata.</li>
+                <li>Tel: 0223-6678031</li>
+                <li>Email: MueblesElCanarioMDP@gmail.com</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="../scripts/scripts.js"></script>
+</body>
+</html>
